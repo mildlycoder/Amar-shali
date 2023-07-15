@@ -344,7 +344,17 @@ nav li.active {
     border-radius: 15px;
 }
 
+.item-servies{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
 
+.item-servies h5{
+    text-align: center;
+    margin-block: 15px;
+}
 
 .item-inner {
     background: #fff;
@@ -370,6 +380,7 @@ nav li.active {
 .item-a.hovered .item-img {
     bottom: 0px;
 }
+
 
 
 .hover-text h3{
